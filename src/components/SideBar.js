@@ -1,7 +1,7 @@
-import '../assets/css/SideBar.css';
-import React, { Component } from 'react';
+import "./SideBar.css";
+import React, { Component } from "react";
 
-class LeftSideBar extends Component {
+class SideBar extends Component {
   render() {
     return (
       <div className="sidenav">
@@ -15,4 +15,4 @@ class LeftSideBar extends Component {
   }
 }
 
-export default LeftSideBar;
+export default SideBar;
